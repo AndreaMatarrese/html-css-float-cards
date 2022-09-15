@@ -1,19 +1,47 @@
 *{
 box-sizing: border-box;
-margin:0;
+
 }
 main{
-    max-width: 900px;
+    max-width: 1000px;
     margin:auto;
 }
 
+/* titolo e paragrafo */
 .titolo-e-paragrafo {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
+
+/* gestione delle foto */
+
 .foto{
     width: 100px;
     float: left;
+    margin-right: 2%;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* testo e sfondo riquadri */
+.persona{
+    background-color: #100e17;
+    color: #ffffff;
+    display: inline-block;
+    width: 33.3%;
+    box-shadow: 5px 5px 5px 5px #ededed;
+}
+
+.link{
+    color: #309DDC;
+    text-decoration: dashed;
+}
+.nome,h3 {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
