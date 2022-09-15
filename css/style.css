@@ -1,5 +1,6 @@
 *{
 box-sizing: border-box;
+margin: 0;
 font-family: 'Baloo 2', cursive;
 }
 main{
@@ -10,13 +11,19 @@ main{
 /* titolo e paragrafo */
 .titolo-e-paragrafo {
     text-align: center;
-   
     
 }
+
+p{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 .titolo{
     color: #E5316F;
     font-weight: 700;
     font-size: 40px;
+    margin-bottom: auto;
 }
 
 
@@ -25,7 +32,7 @@ main{
 .foto{
     width: 100px;
     float: left;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 .clearfix::after {
 	content: '';
@@ -48,9 +55,16 @@ main{
     color: #309DDC;
     text-decoration: dashed;
 }
-.nome,h3 {
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+
+.nome{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+h3{
+    font-size: 15px;
+    font-weight: 400;
 }
 
 /* sezioni */
